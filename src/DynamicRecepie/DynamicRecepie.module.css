@@ -1,0 +1,50 @@
+.Recepie {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.title {
+    padding-left: 30px;
+}
+
+.shortTitle {
+    padding-left: 30px;
+}
+
+
+
+
+.image {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.button {
+  height: 20px;
+  width: 35px;
+}
+
+.ingredients {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.directions {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.padding {
+    padding-left: 30px;
+}
+
+.back {
+    color:olive;
+    font-family: Sofia;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+  padding: 5px;
+}
+
+.con {
+  max-width: 250px;
+  word-wrap: break-word;
+   height: 360px;
+    display: inline-block;
+    border-inline :5px black;
+  border-width:1px;
+border-style:solid;
+border-color:gray ;
+}
+
+.rating{
+
+    padding: 5px;
+}
+
+.p{
+  font-weight: bold;
+}
+
+.by {
+  padding: 5px;
+}
+
+.link{
+  color:black;
+  font-weight: bold;
+  
+  box-shadow: o.5px grey;
+}
+
+

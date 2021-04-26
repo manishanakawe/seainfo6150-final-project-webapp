@@ -1,16 +1,24 @@
-import React from 'react'
-import Form from "../Form/Form";
-import treefrog from "../images/treefrog.jpg";
+import React from 'react';
+import styles from "../Home/Home.module.css";
 
-const Home = () => {
+function Home() {
+
+
     return (
-        <div>
-            The home page
-            <h1>I changed this homepage</h1>
-            <img src={treefrog} alt="tree frog" />
-            <Form />
-        </div>
-    )
+        <picture>
+            <source
+                media="(max-width:600px)"
+                srcSet="foodhome.jpg 200w"
+            />
+
+            <source
+                media="(max-width:1000px)"
+                srcSet="Recipes-Banner.jpg 900w"
+            />
+            <img className={styles.image} src="Recipes-Banner.jpg" alt="Banner" />
+        </picture>
+
+    );
 }
 
-export default Home
+export default Home;

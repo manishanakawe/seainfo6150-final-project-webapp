@@ -1,0 +1,18 @@
+
+.error{
+width: 100%;
+height: auto;
+display: flexbox;
+justify-content: center;
+}
+
+
+
+.back{
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+padding-left: 50px;
+padding-bottom: 50px;
+color:olive;
+}
